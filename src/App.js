@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Component1 from './Component1';
+import Component2 from './Component2';
+import Component3 from './Component3';
 
 function App() {
   return (
@@ -7,7 +10,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Component1 />
+          <Component2 />
+          <Component3 />
         </p>
         <a
           className="App-link"
